@@ -14,6 +14,7 @@ public class ApiOneController {
 
     @GetMapping(value = "/reseller/main")
     public String services() {
+        System.out.println("8011");
         return String.format("reseller/main API Port : %s", "8011");
     }
 
